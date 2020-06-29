@@ -47,11 +47,11 @@ To train a new network on a data set with train.py:
 
 Basic usage: python train.py data_directory
 ### Options:
-Set directory to save checkpoints: python train.py data_dir --save_dir save_directory
-Choose architecture: python train.py data_dir --arch "vgg13"
-Set hyperparameters: python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20
-Use GPU for training: python train.py data_dir --gpu
-To predict flower name from an image with predict.py:
+* Set directory to save checkpoints: python train.py data_dir --save_dir save_directory
+* Choose architecture: python train.py data_dir --arch "vgg13"
+* Set hyperparameters: python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20
+* Use GPU for training: python train.py data_dir --gpu
+* To predict flower name from an image with predict.py:
 
 Basic usage: python predict.py /path/to/image checkpoint
 ### Options:
@@ -61,5 +61,6 @@ Use GPU for inference: python predict.py input checkpoint --gpu
 
 Author
 Jash Jain [linkedin](https://www.linkedin.com/in/jash-jain-bb659a132)
+
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
