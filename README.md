@@ -38,10 +38,14 @@ This project requires Python 3.x and the following Python libraries installed:
 * Image Classifier Project.ipnb: Instance of the entire code run on a jupyter notebook
 * predict_proof.png: Image depicting the accuracy of the model when run from terminal
 * screenshot_training_completion.png: Image depicting the completion of the training over the epochs and the corresponding validation and train losses 
-* cat_to_name.json: File having a dictionary of the numbers mapped to the name of flowers 
+* cat_to_name.json: File having a dictionary of the numbers mapped to the name of flowers (should be placed in the main directory itself)
 * workspace-utils.py: File used to continue running the jupyter notebook for a considerably long time
 Data
 You can download the data used in this project from [here](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html).
+Save the data in a directory named data_dir='flowers'
+                                   train_dir = data_dir + '/train'
+                                   valid_dir = data_dir + '/valid'
+                                   test_dir = data_dir + '/test'
 
 Running codes
 To train a new network on a data set with train.py:
