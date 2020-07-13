@@ -64,7 +64,7 @@ Return top KKK most likely classes: python predict.py input checkpoint --top_k 3
 Use a mapping of categories to real names: python predict.py input checkpoint --category_names cat_to_name.json
 Use GPU for inference: python predict.py input checkpoint --gpu
 
-Author
+Author:
 Jash Jain [linkedin](https://www.linkedin.com/in/jash-jain-bb659a132)
 
 License
