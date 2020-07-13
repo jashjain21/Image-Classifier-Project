@@ -29,8 +29,8 @@ This project requires Python 3.x and the following Python libraries installed:
 * Matplotlib
 
 ### Files Descriptions
-
-* Image Classifier Project: A Jupyter notebook contains code to implement an image classifier with PyTorch.
+* Image Classifier Project.html:A html version of the project file
+* Image Classifier Project.ipynb: A Jupyter notebook contains code to implement an image classifier with PyTorch.
 * train.py: Code to train a new deep learning network on a dataset and save the model as a checkpoint.
 * predict.py: Code uses a trained network to predict the class for an input image.
 * functions_classes.py: Code for functions and classes relating to the model 
