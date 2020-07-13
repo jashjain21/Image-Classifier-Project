@@ -70,5 +70,5 @@ Directly open the Image Classifier Project.ipynb and run the cells and follow al
 Author:
 Jash Jain [linkedin](https://www.linkedin.com/in/jash-jain-bb659a132)
 
-License
+### License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
