@@ -30,7 +30,7 @@ This project requires Python 3.x and the following Python libraries installed:
 
 ### Files Descriptions
 
-Image Classifier Project: A Jupyter notebook contains code to implement an image classifier with PyTorch.
+* Image Classifier Project: A Jupyter notebook contains code to implement an image classifier with PyTorch.
 * train.py: Code to train a new deep learning network on a dataset and save the model as a checkpoint.
 * predict.py: Code uses a trained network to predict the class for an input image.
 * functions_classes.py: Code for functions and classes relating to the model 
@@ -39,6 +39,7 @@ Image Classifier Project: A Jupyter notebook contains code to implement an image
 * predict_proof.png: Image depicting the accuracy of the model when run from terminal
 * screenshot_training_completion.png: Image depicting the completion of the training over the epochs and the corresponding validation and train losses 
 * cat_to_name.json: File having a dictionary of the numbers mapped to the name of flowers 
+* workspace-utils.py: File used to continue running the jupyter notebook for a considerably long time
 Data
 You can download the data used in this project from [here](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html).
 
