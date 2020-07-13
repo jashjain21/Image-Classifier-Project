@@ -67,7 +67,8 @@ Use GPU for inference: python predict.py input checkpoint --gpu
 
 ### Running the Code:
 Directly open the Image Classifier Project.ipynb and run the cells and follow along
-Author:
+
+### Author:
 Jash Jain [linkedin](https://www.linkedin.com/in/jash-jain-bb659a132)
 
 ### License
