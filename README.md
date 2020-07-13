@@ -1,5 +1,5 @@
 # Image-Classifier-Project
-## AI Programming with Python Nanodegree
+## AI Programming with Python Nanodegree-Udacity
 
 ## Project: Create an Image Classifier
 ### Description
