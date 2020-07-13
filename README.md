@@ -40,7 +40,8 @@ This project requires Python 3.x and the following Python libraries installed:
 * screenshot_training_completion.png: Image depicting the completion of the training over the epochs and the corresponding validation and train losses 
 * cat_to_name.json: File having a dictionary of the numbers mapped to the name of flowers (should be placed in the main directory itself)
 * workspace-utils.py: File used to continue running the jupyter notebook for a considerably long time
-Data
+
+### Data
 You can download the data used in this project from [here](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html).
 Save the data in a directory named data_dir='flowers'
                                    train_dir = data_dir + '/train'
@@ -60,7 +61,7 @@ Basic usage: python train.py data_directory
 
 Basic usage: python predict.py /path/to/image checkpoint
 ### Options:
-Return top KKK most likely classes: python predict.py input checkpoint --top_k 3
+Return top K most likely classes: python predict.py input checkpoint --top_k 3
 Use a mapping of categories to real names: python predict.py input checkpoint --category_names cat_to_name.json
 Use GPU for inference: python predict.py input checkpoint --gpu
 
